@@ -3,7 +3,7 @@ let counter=0;
 let button=document.getElementById("incrementBtn");
 let counterParagraph=document.getElementById("counter");
 button.addEventListener("click",()=>{
-	alert("current counter value: "+counter);
+	alert(counter);
 	counter++;
 	counterParagraph.textContent=counter;
 })
